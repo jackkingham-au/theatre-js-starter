@@ -1,0 +1,108 @@
+{
+  "sheetsById": {
+    "R3F UI": {
+      "staticOverrides": {
+        "byObject": {
+          "Editor": {
+            "transformControls": {
+              "mode": "rotate",
+              "space": "world"
+            },
+            "viewport": {
+              "shading": "rendered",
+              "showOverlayIcons": false,
+              "showAxes": true
+            }
+          },
+          "Editor Camera snapshot #1": {
+            "transform": {
+              "position": {
+                "x": -0.6916888342482088,
+                "y": 21.188084098193894,
+                "z": 2.2363575217527236
+              },
+              "target": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "lens": {
+              "zoom": 1
+            }
+          }
+        }
+      }
+    },
+    "R3F-Canvas": {
+      "staticOverrides": {
+        "byObject": {}
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "Camera": {
+            "trackData": {
+              "T2gmZst37R": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": []
+              },
+              "X7r57ZmVCc": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "2FdFqpcXkr",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.0739700374531838,
+                      -0.02710803193536604
+                    ],
+                    "value": 10
+                  },
+                  {
+                    "id": "FP_ObsNrJe",
+                    "position": 6.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.8199915290131297,
+                      0.5863465448630848,
+                      0.3023580157903003,
+                      -0.25433690283254506
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "id": "tG1rYS0F0j",
+                    "position": 10,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "value": 10
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "T2gmZst37R",
+              "[\"position\",\"z\"]": "X7r57ZmVCc"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "Im-XL92i_gP9zOdR",
+    "pKdR5AKBgcZx4XOc"
+  ]
+}
